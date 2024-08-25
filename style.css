@@ -1,0 +1,409 @@
+.body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1px 184px;
+  height: 113px;
+  left: 128px;
+  padding: 32px;
+}
+
+.navbar {
+  display: flex;
+  width: 428px;
+  height: 17px;
+  margin-top: 20px;
+}
+
+.nav a {
+  margin-right: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: rgba(25, 24, 37, 0.5);
+  text-decoration: none;
+}
+
+#home a {
+  margin-right: 50px;
+  color: rgba(34, 40, 49, 1);
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  width: 142px;
+  height: 40px;
+  gap: 16px;
+  margin-top: 5px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h1 {
+  width: 86px;
+  height: 40px;
+  font-family: Circular Std;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-top: 0px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  height: 49px;
+}
+
+#btn-1 button {
+  background: rgba(255, 255, 255, 1);
+  width: 105px;
+  height: 49px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 100px;
+  border: none;
+}
+
+#btn-2 button {
+  padding: 16px 32px;
+  background: rgba(93, 80, 198, 1);
+  border-radius: 100px;
+  color: white;
+  border: none;
+  width: 115px;
+  height: 49px;
+  gap: 8px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 1, 184px;
+  height: 760px;
+  top: 113px;
+  left: 128px;
+  padding: 64px;
+}
+
+.content h1 {
+  font-family: Circular Std;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 82.8px;
+  text-align: left;
+}
+
+#pink {
+  font-family: Circular Std;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 82.8px;
+  text-align: left;
+  color: rgba(248, 94, 159, 1);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 338px;
+  height: 56px;
+  gap: 16px;
+}
+
+#btn-3 button {
+  width: 141px;
+  height: 49px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 100px;
+  color: rgba(238, 238, 238, 1);
+  background: rgba(93, 80, 198, 1);
+}
+
+#btn-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-4 button {
+  display: flex;
+  align-items: center;
+  width: 181px;
+  height: 56px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+#btn-4 img {
+  width: 24px;
+  height: 24px;
+  padding: 2px 2.03px 2px 1.97px;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  width: 642px;
+  height: 632px;
+  top: 64px;
+  left: 542px;
+  gap: 31px;
+}
+
+#rect-1 {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 632px;
+  gap: 32px;
+}
+
+#rect-2 {
+  margin-top: 64px;
+  margin-left: 10px;
+  width: 272px;
+  height: 400px;
+  border-radius: 32px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side {
+  width: 952px;
+  height: 97px;
+  gap: 16px;
+}
+
+.side h2 {
+  color: rgba(248, 94, 159, 1);
+  width: 952px;
+  height: 28px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+.side h1 {
+  width: 952px;
+  height: 53px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: left;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  width: 232px;
+  height: 100px;
+  gap: 32px;
+}
+
+.arrow-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(25, 24, 37, 0.1);
+}
+
+.arrow-1 img {
+  width: 24px;
+  height: 24px;
+  margin-top: 38px;
+  margin-left: 40px;
+}
+
+.arrow-2 {
+  width: 100px;
+  height: 100px;
+  left: 232px;
+  border-radius: 100px;
+  angle: -180 deg;
+  background: rgba(93, 80, 198, 1);
+}
+
+.arrow-2 img {
+  margin-top: 38px;
+  margin-left: 40px;
+  width: 24px;
+  height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 309.33px;
+  height: 101px;
+  gap: 16px;
+  margin-left: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.info h6 {
+  width: 228.33px;
+  height: 56px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+}
+
+.info h6 p {
+  width: 309.33px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  width: 66px;
+  height: 28px;
+  gap: 8px;
+  color: rgba(255, 87, 34, 1);
+}
+
+.rating p {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+}
+
+.rating img {
+  width: 20px;
+  height: 19px;
+  margin-top: 28px;
+}
+
+.price {
+  color: rgba(248, 94, 159, 1);
+  width: 81px;
+  height: 28px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: = 1, 184px;
+  height: 434px;
+  top: 1981px;
+  left: 129px;
+  padding: 64px 0px;
+  gap: 64px;
+}
+
+.footleft {
+  width: 560px;
+  height: 279px;
+  gap: 64px;
+  margin-top: 45px;
+}
+
+.footleft img {
+  width: 142px;
+  height: 40px;
+  gap: 16px;
+}
+
+.footleft p {
+  width: 560px;
+  height: 111px;
+  font-size: 23px;
+  font-weight: 450;
+  line-height: 36.8px;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  height: 32px;
+  gap: 32px;
+}
+
+.footerbox {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  height: 306px;
+  gap: 64px;
+}
+
+.footerbox h6 {
+  width: 165.33px;
+  height: 28px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+  color: rgba(25, 24, 37, 1);
+}
+
+.footerbox a {
+  display: flex;
+  justify-content: space-between;
+  width: 165.33px;
+  height: 29px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: rgba(25, 24, 37, 0.75);
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.footmid-1 {
+  width: 165.33px;
+  height: 211px;
+}
+
+.footmid-2 {
+  width: 165.33px;
+  height: 272px;
+}
+
+.footright {
+  width: 165.33px;
+  height: 306px;
+}
